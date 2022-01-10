@@ -1,6 +1,6 @@
 {
   "name": "@nothingrandom/11ty-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "11ty utilities covering common problems",
   "main": ".eleventy.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "url": "nothingrandom.com"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=10"
   },
   "type": "module",
   "license": "MIT",
