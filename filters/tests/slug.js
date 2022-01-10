@@ -1,5 +1,5 @@
-import test from 'ava';
-import slug from '../slug.js';
+const test = require('ava');
+const slug = require('../slug');
 
 test('slug a string', (t) => {
   t.is(slug('this is a simple string'), 'this-is-a-simple-string');

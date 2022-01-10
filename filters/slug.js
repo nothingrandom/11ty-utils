@@ -1,4 +1,4 @@
-const slug = (string) => {
+module.exports = (string) => {
   let result = string;
 
   if (string) {
@@ -19,5 +19,3 @@ const slug = (string) => {
 
   return result;
 };
-
-export default slug;
